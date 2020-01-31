@@ -56,6 +56,7 @@ void freadnames(ifstream &f,char *list [])
 		strcpy(list[i], x);
 		i++;
 	}
+	cout << list[1] << endl;
 
 	list[i] = nullptr;  // We put the null to the last pointer to mark that the last element in list
 }
